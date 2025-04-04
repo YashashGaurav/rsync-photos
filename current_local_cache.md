@@ -11,12 +11,12 @@ ssh root@ynas.fish-silverside.ts.net
 1. Alaska2025 - 9thMarch2025
 
 
-- From Local to NAS
+- **[Local > NAS]**
 ```bash
 rsync -avP '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2025/Alaska2025 - 9thMarch2025/' 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/Alaska2025 - 9thMarch2025/'
 ```
 
-- From NAS to Local Sync:
+- **[NAS > Local]**
 ```bash
 rsync -avP 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/Alaska2025 - 9thMarch2025/' '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2025/Alaska2025 - 9thMarch2025/'
 ```
@@ -24,24 +24,24 @@ rsync -avP 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/Alaska2025 - 9t
 
 2. NikiEngaged - 9thMarch2025
 
-- From Local to NAS:
+- **[Local > NAS]**
 ```bash
 rsync -avP '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2025/NikiEngaged - 9thMarch2025/' 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/NikiEngaged - 9thMarch2025/'
 ```
 
-- From NAS to Local Sync:
+- **[NAS > Local]**
 ```bash
 rsync -avP 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/NikiEngaged - 9thMarch2025/' '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2025/NikiEngaged - 9thMarch2025/'
 ```
 
 3. RedwoodNP - 20thFeb2025
 
-- [Local > NAS]
+- **[Local > NAS]**
 ```bash
 rsync -avP '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2025/RedwoodNP - 20thFeb2025/' 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/RedwoodNP - 20thFeb2025/'
 ```
 
-- [NAS > Local]
+- **[NAS > Local]**
 ```bash
 rsync -avP 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/RedwoodNP - 20thFeb2025/' '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2025/RedwoodNP - 20thFeb2025/'
 ```
@@ -50,27 +50,48 @@ rsync -avP 'root@YNAS:/mnt/user/blackhawk-photography-cache/2025/RedwoodNP - 20t
 
 1. BJPMeet2024 - 1stSep2024
 
-- [Local > NAS]
+- **[Local > NAS]**
 ```bash
-rsync -avP '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2024/BJPMeet2024 - 1stSep2024/' 'root@YNAS:/mnt/user/blackhawk-photography-archives/Personal Photography/With 80D/2024/PhotosToEdit/BJPMeet2024 - 1stSep2024/'
+rsync -avP \
+'/Users/yashashgaurav/Documents/PhotosToEdit - Local/2024/BJPMeet2024 - 1stSep2024/' \
+'root@YNAS:/mnt/user/blackhawk-photography-archives/Personal Photography/With 80D/2024/PhotosToEdit/BJPMeet2024 - 1stSep2024/'
 ```
 
-- [NAS > Local]
+- **[NAS > Local]**
 ```bash
 rsync -avP 'root@YNAS:/mnt/user/blackhawk-photography-archives/Personal Photography/With 80D/2024/PhotosToEdit/BJPMeet2024 - 1stSep2024/' '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2024/BJPMeet2024 - 1stSep2024/'
 ```
+
+2. ChandramitaUBC - 10thMay2024
+
+- **[Local > NAS]**
+```bash
+rsync -avP \
+'/Users/yashashgaurav/Documents/PhotosToEdit - Local/2024/ChandramitaUBC - 10thMay2024/' \
+'root@YNAS:/mnt/user/blackhawk-photography-archives/Personal Photography/With 80D/2024/PhotosToEdit/ChandramitaUBC - 10thMay2024/'
+```
+
+- **[NAS > Local]**
+```bash
+rsync -avP \
+'root@YNAS:/mnt/user/blackhawk-photography-archives/Personal Photography/With 80D/2024/PhotosToEdit/ChandramitaUBC - 10thMay2024/' \
+'/Users/yashashgaurav/Documents/PhotosToEdit - Local/2024/ChandramitaUBC - 10thMay2024/'
+```
+
+3. 
+
 
 ## 2023
 
 1. Yosemite'23 - 7thAug2023
 
-- From Local to NAS
+- **[Local > NAS]**
 ```bash
 rsync -avP "/Users/yashashgaurav/Documents/PhotosToEdit - Local/2023/Yosemite'23 - 7thAug2023/" "root@YNAS:/mnt/user/blackhawk-photography-archives/Personal Photography/With 80D/2023/PhotosToEdit/Yosemite'23 - 7thAug2023/"
 ```
 
 
-- From NAS to Local Sync:
+- **[NAS > Local]**
 ```bash
 rsync -avP 'root@YNAS:/mnt/user/blackhawk-photography-archives/Personal Photography/With 80D/2023/PhotosToEdit/Yosemite'23 - 7thAug2023/' '/Users/yashashgaurav/Documents/PhotosToEdit - Local/2023/Yosemite'23 - 7thAug2023/'
 ```
